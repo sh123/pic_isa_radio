@@ -8,7 +8,7 @@
 #define FOSC        20000000L
 #define BAUD        19200
 #define HIGH_SPEED  1
- 
+
 #define DIVIDER     ((int)(FOSC/(16UL * BAUD) -1))
 
 // high speed?
@@ -16,7 +16,7 @@
 #define SPEED       0x4
 #else
 #define SPEED       0
-#endif 
+#endif
 
 // pins
 #define RX_PIN      TRISC7
@@ -25,11 +25,11 @@
 // initialize uart
 #define uart_init() \
 {\
-	TX_PIN = 1; \
-	RX_PIN = 1; \
-	SPBRG = DIVIDER; \
-	RCSTA = 0x90; \
-	TXSTA = (SPEED | 0x20);\
+    TX_PIN = 1; \
+    RX_PIN = 1; \
+    SPBRG = DIVIDER; \
+    RCSTA = 0x90; \
+    TXSTA = (SPEED | 0x20);\
 }
 
 /*

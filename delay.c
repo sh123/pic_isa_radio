@@ -11,10 +11,10 @@ void delay_us(unsigned char us)
     sleep_us = us;
 __asm
 _BACK:
-	nop
-	nop
-	decfsz 	_sleep_us,f
-	goto	_BACK
+    nop
+    nop
+    decfsz  _sleep_us,f
+    goto    _BACK
 __endasm;
 }
 

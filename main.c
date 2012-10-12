@@ -73,7 +73,7 @@ void main(void)
             msgbuf[1] = (vol_cur / 100) + 0x30;
             msgbuf[2] = ((vol_cur / 10) % 10) + 0x30;
             msgbuf[3] = (vol_cur % 10) + 0x30;
-            msgbuf[4] = ' ';   
+            msgbuf[4] = ' ';
             msgbuf[5] = 'D';
             msgbuf[6] = 'B';
             msgbuf[7] = '\0';

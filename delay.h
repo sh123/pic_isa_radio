@@ -3,18 +3,18 @@
 #define __DELAY_H
 
 /*
-**	Micro second delay
+**  Micro second delay
 **
-**	Input:
-**		us - micro second value
+**  Input:
+**      us - micro second value
 */
 void delay_us(unsigned char us);
 
 /*
-**	Milli second delay
+**  Milli second delay
 **
-**	Input:
-**		ms - milli second value
+**  Input:
+**      ms - milli second value
 */
 void delay_ms(unsigned char ms);
 
