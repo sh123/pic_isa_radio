@@ -1,4 +1,4 @@
-PIC16 ISA Radio
+PIC16F844 ISA Radio
 ==============
 
 Introduction
