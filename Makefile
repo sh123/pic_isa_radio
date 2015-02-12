@@ -1,4 +1,4 @@
-PRJ := radio
+PRJ := main
 OBJS := main.o uart.o delay.o lcd.o radio.o
 
 LIBDIR := /usr/share/sdcc/lib/pic14
